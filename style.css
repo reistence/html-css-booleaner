@@ -21,6 +21,10 @@ header div {
 }
 /* main */
 
+contenitore {
+  width: 60%;
+}
+
 section {
   padding: 5px;
 }
@@ -73,7 +77,6 @@ table {
   cellspacing: 0;
   column-span: none;
 }
-
 td {
   padding-top: 15px;
   padding-left: 15px;
@@ -87,7 +90,6 @@ thead {
 }
 #riga-colorata {
   background-color: #b2e6f2;
-  padding: ;
 }
 
 /* footer */
