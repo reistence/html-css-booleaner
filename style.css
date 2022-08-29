@@ -74,14 +74,16 @@ table {
   border-style: none;
   border-spacing: 0;
   text-align: left;
-  cellspacing: 0;
+
   column-span: none;
+}
+th {
+  padding-left: 30px;
 }
 td {
   padding-top: 15px;
-  padding-left: 15px;
+  padding-left: 30px;
   padding-bottom: 15px;
-  padding-left: 0%;
   text-align: left;
 }
 thead {
