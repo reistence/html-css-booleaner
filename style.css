@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+header div {
+  background-color: #4fa0ff;
+  width: 100%;
+  height: 100px;
+  background-image: url(/img/pattern.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: left;
+  position: relative;
+}
+#logo {
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+}
+/* main */
