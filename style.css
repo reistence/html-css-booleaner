@@ -25,7 +25,7 @@ section {
   padding: 5px;
 }
 h1 {
-  font-size: large;
+  font-size: 50px;
   padding-top: 20px;
 }
 #autore,
@@ -37,6 +37,7 @@ h1 {
 #data {
   font-size: x-small;
 }
+/* foto articolo */
 #foto-articolo {
   padding-top: 20px;
   height: 300px;
@@ -44,21 +45,41 @@ h1 {
   display: inline-block;
 }
 #tim-1 {
-  max-width: 50%;
-  height: 300px;
+  max-width: fit-content;
+  height: auto;
 }
 #tim-2 {
-  max-width: 50%;
-  height: 300px;
+  max-width: fit-content;
+  height: auto;
 }
+/* info foto */
 .autore-foto {
   font-size: x-small;
 }
+/* testo evidenziato */
 .evidenziato {
   background-color: yellow;
 }
+/* lista */
 ul {
   list-style-position: inside;
+}
+/* tabella */
+table {
+  width: 100%;
+  border-style: none;
+  border-spacing: 0;
+  text-align: left;
+  cellspacing: 0;
+  column-span: none;
+}
+
+td {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-left: 0%;
+  text-align: left;
 }
 thead {
   color: white;
@@ -66,4 +87,42 @@ thead {
 }
 #riga-colorata {
   background-color: #b2e6f2;
+  padding: ;
+}
+
+/* footer */
+footer div {
+  position: relative;
+}
+footer p {
+  color: #808080;
+}
+footer img {
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  width: 250px;
+}
+#graph {
+  margin-bottom: 50px;
+}
+#testo-immagine1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+#testo-immagine2 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
 }
