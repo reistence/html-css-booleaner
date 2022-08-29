@@ -7,7 +7,7 @@
 header div {
   background-color: #4fa0ff;
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-image: url(/img/pattern.png);
   background-size: contain;
   background-repeat: repeat-x;
@@ -20,3 +20,50 @@ header div {
   bottom: 0%;
 }
 /* main */
+
+section {
+  padding: 5px;
+}
+h1 {
+  font-size: large;
+  padding-top: 20px;
+}
+#autore,
+#data {
+  color: #808080;
+  font-size: smaller;
+}
+
+#data {
+  font-size: x-small;
+}
+#foto-articolo {
+  padding-top: 20px;
+  height: 300px;
+  width: 100%;
+  display: inline-block;
+}
+#tim-1 {
+  max-width: 50%;
+  height: 300px;
+}
+#tim-2 {
+  max-width: 50%;
+  height: 300px;
+}
+.autore-foto {
+  font-size: x-small;
+}
+.evidenziato {
+  background-color: yellow;
+}
+ul {
+  list-style-position: inside;
+}
+thead {
+  color: white;
+  background-color: #20aae5;
+}
+#riga-colorata {
+  background-color: #b2e6f2;
+}
