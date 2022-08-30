@@ -75,7 +75,6 @@ table {
   border-style: none;
   border-spacing: 0;
   text-align: left;
-  cellspacing: 0;
   column-span: none;
 }
 th {
