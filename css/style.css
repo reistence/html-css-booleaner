@@ -71,6 +71,12 @@ table {
 
   column-span: none;
 }
+#head-table {
+  height: 5%;
+}
+#large-column {
+  width: 50%;
+}
 th {
   padding-left: 30px;
 }
